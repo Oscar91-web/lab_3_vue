@@ -1,28 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <CodeSnippets/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import CodeSnippets from './components/CodeSnippets.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CodeSnippets
   }
 }
 </script>
 
 <style>
+*{
+  margin: 0px;
+    background-color: #303030;
+    color: #f7f7f7;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
